@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 24px;
 }
 
 .App-logo {
@@ -30,4 +31,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.none {
+  display: none;
+}
+
+.visible {
+  display: default;
+}
+
+ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 18px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+ul li:active {
+  border: 1px solid red;
 }
